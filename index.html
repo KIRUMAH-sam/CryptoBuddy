@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Learning Platform</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Mini E-Learning Platform</h1>
+    <button id="logout-btn" class="hidden logout-btn">Logout</button>
+  </header>
+
+  <main>
+    <!-- LOGIN / SIGNUP SECTION -->
+    <section id="auth-section" class="course-section">
+      <h2>Welcome to Your Favorite E-Learning Platform</h2>
+      <div class="auth-container">
+        <input type="text" id="username" placeholder="Enter username" />
+        <input type="password" id="password" placeholder="Enter password" />
+        <button id="login-btn">Login</button>
+        <p>Don't have an account? <a href="#" id="signup-link">Sign up</a></p>
+      </div>
+    </section>
+
+    <!-- COURSE LIST SECTION -->
+    <section id="course-list" class="course-section hidden">
+      <h2>Available Courses</h2>
+      <div id="courses" class="course-container"></div>
+    </section>
+
+    <!-- COURSE DETAILS SECTION -->
+    <section id="course-detail" class="course-section hidden">
+      <button id="back-btn" class="back-btn">← Back</button>
+      <h2 id="course-title"></h2>
+      <p id="course-description"></p>
+      <ul id="lesson-list"></ul>
+      <button id="complete-btn" class="complete-btn">Mark as Completed</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 E-Learning Platform | Built by Samuel Kirumah</p>
+  </footer>
+
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
