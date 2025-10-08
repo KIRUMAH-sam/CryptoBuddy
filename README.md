@@ -1,34 +1,59 @@
-# CryptoBuddy — Your First AI-Powered Financial Sidekick
+## Mini E-Learning Platform
 
-## Overview
-CryptoBuddy is a beginner-friendly, rule-based chatbot that gives simple investment advice using a small predefined crypto dataset. It ranks coins by profitability (price trend & market cap) and sustainability (energy use & sustainability score).
+A simple, interactive e-learning prototype built using HTML, CSS, and JavaScript.
+Developed as part of the VibeCoding Week 1 Assignment, this project demonstrates the integration of front-end development principles and AI-assisted coding.
 
-## Features
-- Rule-based decision logic (no external APIs required)
-- Interactive chat loop
-- Demo mode for quick testing
-- Clear risk disclaimer for ethical guidance
+# Overview
 
-## How to run
-1. `python cryptobuddy.py` — interactive mode
-2. `python cryptobuddy.py demo` — sample outputs
+## The platform enables learners to:
 
-## Files submited
-- `cryptobuddy.py`
-- `README.md` 
-- `screenshots/` folder with conversation screenshots
-- Short screen recording (30s) of an interaction on the PLP LMS community.
+🧾 View a list of available courses
+📚 Access course details and lessons
+✅ Mark courses as completed
+🔐 Log in or sign up (front-end only)
+💾 Save progress locally using localStorage
 
-## Extensions 
-- Added NLTK to parse more natural queries
-- Replace hard rules with a weighted ML model (after collecting historical data)
+The focus is on building a functional and visually clean prototype.
 
-## Sample conversations while running the application 
-You: Which crypto should I buy for long-term growth?
-CryptoBuddy: For potential long-term growth, my top pick is Cardano (ADA). Why: price trend = rising, market cap = medium. Note: This is rule-based — score 6.50. Disclaimer: This bot uses simple rules; crypto is risky—DYOR.
+## 🧠 Features
+# Feature	Description
+Course Listing	Dynamically loads a set of courses from a JavaScript array
+Course Detail View	Displays course description and lessons
+Mark as Completed	Lets users track course completion
+Login/Signup System	Basic front-end authentication using localStorage
+Persistent Progress	User data and progress remain after reload
+Responsive Design	Clean layout using CSS Grid and Flexbox
+🛠️ Technologies Used
+HTML5 – Application structure
+CSS3 – Styling and responsiveness
+JavaScript (ES6) – Logic and interactivity
+LocalStorage API – Persistent user data storage
+🧩 Project Structure
+vibecoding-elearning/
+│
+├── index.html       # Main HTML file
+├── style.css        # Styling and layout
+└── script.js        # Application logic
 
-You: What’s the most sustainable coin?
-CryptoBuddy: The most sustainable coin in my list is Algorand (ALGO). 🌱 Sustainability score (rule-based) = 11.00. Disclaimer: educational only.
+## 🧭 How to Run
+Clone or download this repository.
+Open the folder in your preferred code editor (e.g., VS Code).
+Launch the project by opening index.html in a browser.
+Sign up with a username and password to create an account.
+Log in to access and complete courses.
+💡 Possible Improvements
+🌙 Add dark/light mode toggle
+📊 Include a progress bar (e.g., “2/3 courses completed”)
+🔗 Connect to a backend (Flask or Node.js) for real data
+🧾 Add user profiles and badges
+👨‍💻 Author
 
-## Disclaimer
-This bot is educational. Not financial advice. Crypto investments are risky. Always do your own research (DYOR).
+Samuel Kirumah
+📍 Nairobi, Kenya
+🎓 BSc. Statistics & Actuarial Science | Software Engineering (PLP Academy – AI for Software Engineering)
+
+📜 License
+
+This project is open-source and free to use for educational purposes.
+
+© 2025 E-Learning Platfrom | Built by Samuel Kirumah
